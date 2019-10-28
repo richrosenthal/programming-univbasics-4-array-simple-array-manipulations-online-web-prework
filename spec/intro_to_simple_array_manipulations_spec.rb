@@ -37,7 +37,7 @@ describe "using_pop" do
   end
 
   it "decreases the length of the array by 1" do 
-    expect(@continents.size).to eq(5)
+    expect(@continents.size).to eq(6)
   end
 end
 
