@@ -9,3 +9,8 @@ def using_unshift(array, string)
   new_bourough = "Pittsburgh"
   bouroughs_in_nyc.unshift(new_bourough)
 end
+
+def using_pop(array)
+   bouroughs_in_nyc = ["Brooklyn", "Queens", "Manhattan", "Bronx"]
+   bouroughs_in_nyc.pop
+end
