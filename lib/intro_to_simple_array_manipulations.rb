@@ -45,6 +45,8 @@ def using_uniq(array)
 end
 
 def using_flatten(array)
+  s = [1,2,3]
+  t = [4,5,[6,7],8]
   
 
   
