@@ -58,6 +58,7 @@ end
 def using_delete_at(array, integer)
   array = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
   integer = 2 
-  
+  array.delete_at(integer)
+end
   
   
