@@ -36,7 +36,7 @@ end
 def using_insert(array, element)
    array = ["great", "good", "nada", "sleepy"]
    element = "really sleepy"
-   array.insert(element)
+   array.insert(4,element)
 end
 
 
