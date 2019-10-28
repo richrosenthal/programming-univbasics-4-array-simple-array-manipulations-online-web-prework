@@ -40,8 +40,8 @@ def using_insert(array, element)
 end
 
 def using_uniq(array)
-  array1 = ["dog", "dog", "cat", "fish"]
-  array1.uniq 
+  haircuts = ["Pixie", "Bob", "Mohawk", "Crew Cut", "Linka", "Wheeler", "Bob"]
+  new_array = using_uniq(haircuts)
 end
 
   
