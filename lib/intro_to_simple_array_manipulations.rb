@@ -36,7 +36,7 @@ end
 def using_insert(array, element)
    list_of_programming_languages = ["Ruby", "JavaScript", "Java", "C#", "Objective C", "C++", "PHP"]
    language = "python"
-   array.insert(4, element)
+   list_of_programming_languages.insert(4, element)
 end
 
 
