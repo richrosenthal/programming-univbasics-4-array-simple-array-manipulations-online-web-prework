@@ -15,8 +15,7 @@ def using_pop(array)
 end
 
 def pop_with_args(array)
-  dog_breeds = ["Great Dane", "Golden Retriever", "Chihuahua", "Shiba Inu"]
-  small_dogs = dog_breeds.pop(2)
+  array.pop(2)
 end
 
 def using_shift(array)
