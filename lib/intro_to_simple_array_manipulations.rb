@@ -49,5 +49,11 @@ def using_flatten(array)
   instruments.flatten 
 end
 
+def using_delete(array,string)
+  array = ["bob", "john", "suzy","rikki"]
+  string = "bob"
+  array.delete(string)
+end
+
   
   
