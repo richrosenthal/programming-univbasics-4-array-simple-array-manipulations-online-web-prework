@@ -39,6 +39,10 @@ def using_insert(array, element)
    list_of_programming_languages.insert(4, element)
 end
 
+def using_uniq(array)
+  array1 = ["dog", "dog", "cat", "fish"]
+  array1.uniq 
+end
 
   
   
